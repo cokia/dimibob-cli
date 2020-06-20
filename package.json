@@ -1,0 +1,28 @@
+{
+  "name": "dimibob-cli",
+  "version": "1.0.1",
+  "description": "i love dimibob",
+  "main": "src/index.js",
+  "repository": "https://github.com/cokia/dimibob-cli",
+  "author": "cokia <hwymaster01@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "dimibob": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "node-fetch": "^2.6.0",
+    "process": "^0.11.10"
+  }
+}
