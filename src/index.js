@@ -8,7 +8,7 @@ const { log } = console;
 const chalk = require('chalk');
 // @ts-ignore
 program
-  .arguments('<day> [optional]')
+  .arguments('[day] [optional]')
   // eslint-disable-next-line func-names
   .action((day) => {
     if (day === 'today' || day === '') {
